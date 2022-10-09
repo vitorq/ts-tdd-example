@@ -4,6 +4,7 @@ export interface ParseResult {
   content: string;
 }
 
+/**testing push */
 export function parseInput(input: string): ParseResult {
   let noDelimiter: ParseResult = {
     valid: true,
